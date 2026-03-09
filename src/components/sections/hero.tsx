@@ -64,7 +64,7 @@ export function HeroSection() {
           </div>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground">
             Étudiant en Bachelor Développeur Concepteur d&apos;Applications —
-            Passionné par le développement informatique, la conception des solutions prospères et durables dans le temps.
+            Passionné par le développement informatiques, la conception des solutions prospères et durables dans le temps.
           </p>
           <div className="mt-8 flex gap-8">
             {[
