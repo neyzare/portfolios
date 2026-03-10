@@ -134,7 +134,7 @@ export function HeroSection() {
                 prompt="$ cat skills.json"
                 delay={0.9}
                 content={`{
-  "frontend": ["React", "Next.js", "TypeScript", "Tailwind"],
+  "frontend": ["React", "Next.js", "TypeScripte", "Tailwind"],
   "backend": ["Node.js", "Java", "Python", "PHP"],
   "database": ["PostgreSQL", "MySQL", "MongoDB"],
   "devops": ["Docker", "Git", "Linux"]
