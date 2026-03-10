@@ -1,0 +1,25 @@
+# Node modules locaux (on fera npm install dans le container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Logs et fichiers temporaires
+*.log
+*.tsbuildinfo
+*.swp
+.DS_Store
+
+# Fichiers de build locaux
+.next
+out
+
+# Configuration de l’IDE
+.vscode
+.idea
+
+# Git
+.git
+.gitignore
+
+# Autres dossiers inutiles
+.env
