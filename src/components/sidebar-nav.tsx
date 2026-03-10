@@ -74,13 +74,11 @@ function DockItem({
     >
       <Icon size={18} strokeWidth={isActive ? 2.5 : 2} />
 
-      {/* Tooltip */}
       <span className="pointer-events-none absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs font-medium text-background opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
         {label}
         <span className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-foreground" />
       </span>
 
-      {/* Active dot */}
       {isActive && (
         <span className="absolute -bottom-1 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-blue-500" />
       )}
@@ -173,7 +171,6 @@ export function DockNav() {
         transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.3 }}
         className="flex items-center gap-1 rounded-2xl border border-white/[0.08] bg-background/60 px-3 py-2 shadow-[0_8px_32px_rgba(0,0,0,0.4)] backdrop-blur-xl dark:border-white/[0.08] dark:bg-black/50"
       >
-        {/* Nav items */}
         {navItems.map(({ id, label, icon }) => (
           <DockItem
             key={id}
@@ -185,10 +182,8 @@ export function DockNav() {
           />
         ))}
 
-        {/* Separator */}
         <div className="mx-1 h-8 w-px bg-white/10" />
 
-        {/* Actions */}
         <DockAction
           icon={Linkedin}
           label="LinkedIn"

@@ -77,7 +77,6 @@ export function ProfileSection() {
 
           <div className="lg:col-span-2 flex justify-center">
             <div className="relative text-center">
-              {/* PLACEHOLDER — Remplace par <Image src="/images/profile.jpg" ... /> */}
               <div className="mx-auto flex h-48 w-48 items-center justify-center overflow-hidden rounded-full border-2 border-border bg-muted">
                 <User size={64} className="text-muted-foreground/50" />
               </div>

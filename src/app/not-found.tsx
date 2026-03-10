@@ -8,7 +8,6 @@ import { Home, ArrowLeft, Terminal } from "lucide-react";
 export default function NotFound() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center px-6">
-      {/* Terminal-style error message */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -41,7 +40,6 @@ export default function NotFound() {
         </div>
       </motion.div>
 
-      {/* Big 404 */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -56,7 +54,6 @@ export default function NotFound() {
         </p>
       </motion.div>
 
-      {/* Actions */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -77,7 +74,6 @@ export default function NotFound() {
         </Button>
       </motion.div>
 
-      {/* Decorative element */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.3 }}
