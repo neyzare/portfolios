@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Lucas Narguet — Portfolio",
   description:
     "Portfolio de Lucas Narguet, étudiant en Bachelor Développeur Concepteur d'Applications.",
+  verification: {
+    google: "5UQaFVotNae_TorrrosApNwnyigAH8xGJiKUyrrbzdo"
+  }
 };
 
 export default function RootLayout({
